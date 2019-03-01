@@ -1,8 +1,14 @@
 # omdbapi
 
+## Requirements
+```
+Nodejs >= 10.0.0
+```
+
 ## Project setup
 ```
-npm install
+Copy project on your local machine
+Make npm install
 ```
 
 ### Compiles and hot-reloads for development
@@ -15,15 +21,9 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### The efficiency has been tested in the following browsers:
 ```
-npm run test
+Chrome >= 70.0
+Firefox >= 54.0
+Opera >= 58.0
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
