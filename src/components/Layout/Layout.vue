@@ -3,7 +3,7 @@
         <div>
             <v-content>
                 <v-container>
-                    <router-view></router-view>
+                    <film />
                 </v-container>
             </v-content>
         </div>
@@ -11,9 +11,11 @@
 </template>
 
 <script>
+    import Film from '../Film/Film'
+
   export default {
     components: {
-
+        Film
     }
   }
 </script>

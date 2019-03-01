@@ -2,7 +2,7 @@
     <v-flex xs12 sm12 md12>
         <v-card>
             <v-card-title>
-                <span class="headline">Поиск фильмов</span>
+                <span class="headline">Поиск фильма</span>
             </v-card-title>
 
             <v-card-text>
@@ -13,7 +13,7 @@
                                 <v-text-field
                                         :rules="[titleValidateRules.required]"
                                         v-model="searchParams.title"
-                                        label="Назание">
+                                        label="Название">
                                 </v-text-field>
                             </v-flex>
                             <v-flex xs1 sm1 md1>
@@ -75,7 +75,7 @@
         searchParams: {
           title: '',
           year: '',
-          plot: '',
+          plot: 'short',
           type: ''
         }
       }

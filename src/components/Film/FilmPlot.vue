@@ -6,11 +6,11 @@
             </v-card-title>
 
             <v-card-text class="text-lg-center">
-                <p>{{film.Plot}}</p>
+                <p>{{film.Plot | checkValueOnNaN}}</p>
             </v-card-text>
         </v-card>
         <hr>
-        <v-card>
+        <v-card v-if="film.Ratings.length">
             <v-card-title class="justify-center">
                 <span class="headline">Рейтинг</span>
             </v-card-title>

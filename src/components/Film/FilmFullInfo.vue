@@ -6,21 +6,21 @@
             </v-card-title>
 
             <v-card-text>
-                <p><b>Актеры:</b> {{film.Actors}} </p>
-                <p><b>Награды:</b> {{film.Awards}} </p>
-                <p><b>Страна:</b> {{film.Country}} </p>
-                <p><b>Сборы:</b> {{film.BoxOffice}} </p>
-                <p><b>DVD:</b> {{film.DVD}} </p>
-                <p><b>Режисер:</b> {{film.Director}} </p>
-                <p><b>Жанр :</b> {{film.Genre}} </p>
-                <p><b>Языки :</b> {{film.Language}} </p>
-                <p><b>Metascore :</b> {{film.Metascore}} </p>
-                <p><b>Производство :</b> {{film.Production}} </p>
-                <p><b>Рейтинг :</b> {{film.Rated}} </p>
-                <p><b>Дата выхода :</b> {{film.Released}} </p>
-                <p><b>Длительность :</b> {{film.Runtime}} </p>
-                <p><b>Сценарист :</b> {{film.Writer}} </p>
-                <p><b>Голоса imdb :</b> {{film.imdbVotes}} </p>
+                <p><b>Актеры:</b> {{film.Actors | checkValueOnNaN}} </p>
+                <p><b>Награды:</b> {{film.Awards | checkValueOnNaN}} </p>
+                <p><b>Страна:</b> {{film.Country | checkValueOnNaN}} </p>
+                <p><b>Сборы:</b> {{film.BoxOffice | checkValueOnNaN}} </p>
+                <p><b>DVD:</b> {{film.DVD | checkValueOnNaN}} </p>
+                <p><b>Режисер :</b> {{film.Director | checkValueOnNaN}} </p>
+                <p><b>Жанр :</b> {{film.Genre | checkValueOnNaN}} </p>
+                <p><b>Языки :</b> {{film.Language | checkValueOnNaN}} </p>
+                <p><b>Metascore :</b> {{film.Metascore | checkValueOnNaN}} </p>
+                <p><b>Производство :</b> {{film.Production | checkValueOnNaN}} </p>
+                <p><b>Рейтинг :</b> {{film.Rated | checkValueOnNaN}} </p>
+                <p><b>Дата выхода :</b> {{film.Released | checkValueOnNaN}} </p>
+                <p><b>Длительность :</b> {{film.Runtime | checkValueOnNaN}} </p>
+                <p><b>Сценарист :</b> {{film.Writer | checkValueOnNaN}} </p>
+                <p><b>Голоса imdb :</b> {{film.imdbVotes | checkValueOnNaN}} </p>
             </v-card-text>
         </v-card>
     </v-flex>
